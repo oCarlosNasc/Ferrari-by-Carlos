@@ -1,0 +1,90 @@
+html, body{
+    margin:0px !important;
+    padding: 0px !important;
+ }
+
+.menu{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(255, 64, 64);
+}
+
+.ferrarititulo{
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h1{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+.videosin{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+body{
+    background: rgb(121,121,121);
+background: linear-gradient(180deg, rgba(121,121,121,1) 53%, rgba(37,37,37,1) 100%);
+    
+}
+
+.video{
+    margin-left: 100px;
+    border-radius: 20px;
+    
+}
+
+.logodamarca{
+        max-width:130px;
+        max-height:115px;
+        width: auto;
+        height: auto;
+
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    
+}
+
+img{
+    height: 200px;
+
+}
+
+section {
+    background: rgb(68, 68, 68);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  }
+
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h2{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
